@@ -7,7 +7,7 @@
         {
             "name": "Muhammad Dede Hidayatullah",
             "email": "mdede.hidayatullah@gmail.com"
-        }
+        } 
     ],
     "minimum-stability": "dev",
     "autoload": {
