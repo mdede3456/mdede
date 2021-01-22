@@ -1,0 +1,29 @@
+{
+    "name": "mdede/beranda",
+    "description": "Library Aplikasi Beranda Social Media",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Muhammad Dede Hidayatullah",
+            "email": "mdede.hidayatullah@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Beranda\\" : "src/"
+        }
+    },
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Beranda\\BerandaServiceProvider"
+            ],
+            "aliases": {
+                "Chatify": "Beranda\\Facades\\SangrevBeranda"
+            }
+        }
+    }
+}
